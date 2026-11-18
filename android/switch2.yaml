@@ -1,0 +1,15 @@
+name: Nintendo Switch 2
+
+cocoon:
+  icon: switch
+  folder: coral
+
+scrape:
+  launchbox: Nintendo Switch 2
+
+players:
+  - name: Banana Native
+    app: dev.bananative.android/dev.bananative.android.Launch
+    game: { extra: game }
+    files: [nup]
+    resumes: no
