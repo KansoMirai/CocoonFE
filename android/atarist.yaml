@@ -14,3 +14,4 @@ scrape:
 
 players:
   - retroarch: hatari
+  - retroarch: hatarib
