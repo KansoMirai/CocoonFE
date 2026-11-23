@@ -130,4 +130,19 @@ players:
       EXTERNAL: /storage/emulated/0/Android/data/com.retroarch.aarch64/files
     flags: [clear-task, clear-top]
 
+  - name: RetroArch - azahar
+    id: 3ds.ra.azahar
+    app: com.retroarch/com.retroarch.browser.retroactivity.RetroActivityFuture
+    game: { extra: ROM }
+    files: [3ds, 3dsx, app, axf, cci, cxi, elf]
+    extras:
+      LIBRETRO: /data/data/com.retroarch/cores/azahar_libretro.so
+      CONFIGFILE: /storage/emulated/0/Android/data/com.retroarch/files/retroarch.cfg
+      IME: com.android.inputmethod.latin/.LatinIME
+      DATADIR: /data/data/com.retroarch
+      APK: /data/app/com.retroarch-1/base.apk
+      SDCARD: /storage/emulated/0
+      EXTERNAL: /storage/emulated/0/Android/data/com.retroarch/files
+    flags: [clear-task, clear-top]
+
   - retroarch: [citra2018, citra_canary, citra]
