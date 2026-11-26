@@ -2,6 +2,16 @@
   "schema": 1,
   "releases": [
     {
+      "version": "3.12",
+      "apk": "https://github.com/inssekt/CocoonFE/releases/download/beta-3.12/cocoon-312.apk",
+      "size": 218509596,
+      "sha256": "dc2d5fb822d66b18204a967feb7ebbec60e5d35070833438ebb9a9f76f48bd18",
+      "minSdk": 24,
+      "rollout": 100,
+      "banner": "https://raw.githubusercontent.com/KansoMirai/CocoonFE/main/banners/au-3-12.png",
+      "description": "Read the patch notes [here](https://github.com/KansoMirai/CocoonFE/releases/tag/beta-3.12)"
+    },
+    {
       "version": "3.11",
       "apk": "https://github.com/inssekt/CocoonFE/releases/download/beta-3.11/cocon-311.apk",
       "size": 217774019,
