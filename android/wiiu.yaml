@@ -20,3 +20,10 @@ players:
     game: uri
     files: [wua, wux, rpx]
     flags: [clear-task, clear-top]
+
+  - name: Cidemu
+    app: dev.cidix.cidemu/info.cemu.cemu.emulation.EmulationActivity
+    action: none
+    game: uri
+    files: [wua, wuhb, wud, wux, rpx]
+    flags: [clear-task, clear-top]
