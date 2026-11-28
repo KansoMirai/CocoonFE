@@ -129,3 +129,9 @@ players:
     action: android.nfc.action.TECH_DISCOVERED
     game: uri
     files: [nro, nso, nca, xci, nsp, xcz, nsz]
+
+  - name: Peanuts Native
+    app: dev.nxnative.android.peanuts/dev.nxnative.android.peanuts.Launch
+    game: { extra: game }
+    files: [nup]
+    resumes: no
