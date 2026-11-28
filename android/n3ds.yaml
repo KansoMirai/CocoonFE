@@ -24,7 +24,7 @@ players:
     id: 3ds.azahar
     app: io.github.lime3ds.android/org.citra.citra_emu.activities.EmulationActivity
     game: uri
-    files: [3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx]
+    files: [3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx, bcci, bcxi, bcia]
     flags: [clear-task, clear-top]
     resumes: no
 
@@ -32,7 +32,7 @@ players:
     id: 3ds.azaharnew
     app: org.azahar_emu.azahar/org.citra.citra_emu.activities.EmulationActivity
     game: uri
-    files: [3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx]
+    files: [3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx, bcci, bcxi, bcia]
     flags: [clear-task, clear-top]
     resumes: no
 
@@ -40,7 +40,7 @@ players:
     id: 3ds.azahar.debug
     app: org.azahar_emu.azahar.debug/org.citra.citra_emu.activities.EmulationActivity
     game: uri
-    files: [3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx]
+    files: [3ds, app, cci, cxi, zcci, zcxi, cia, 3dsx, bcci, bcxi, bcia]
     flags: [clear-task, clear-top]
     resumes: no
 
